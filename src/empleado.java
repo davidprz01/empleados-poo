@@ -2,16 +2,16 @@ public class Empleado {
     private String nombre;
     private int salario;
     private String cargo;
-    public Empleado(String nombre, int salario, String cargo) {
+    public Empleado(String nombre, int salario) {
         this.nombre = nombre;
-        this.cargo = cargo;
         this.salario = salario;
+        this.cargo = cargo;
     }
 
 
-    // Actulizar cargo
+    /* Metodo Actulizar cargo */
     public void actualizarCargo(String nuevoCargo) {
-        cargo = nuevoCargo;
-        System.out.println("el cargo fue actualizado a: "+ cargo);
+        this.cargo = nuevoCargo;
+        System.out.println("el cargo fue actualizado a: " + this.cargo);
     }
 }
