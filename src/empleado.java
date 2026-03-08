@@ -6,7 +6,6 @@ this.nombre = nombre;
 this.salario = salario;
 }
 // funcion aumentar salario
-    public void aumentarSalario(int aumento) {
-        salario += aumento;
-    }
+public void aumentarSalario(int aumento) {
+    salario += aumento;
 }
