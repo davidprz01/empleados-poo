@@ -5,3 +5,7 @@ public Empleado(String nombre, int salario) {
 this.nombre = nombre; 
 this.salario = salario; 
 }
+
+public int calcularSalario() {
+        return salario;
+}
