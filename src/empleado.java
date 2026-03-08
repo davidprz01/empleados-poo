@@ -9,7 +9,7 @@ public class empleado {
     }
 
 
-    /* Metodo Actulizar cargo */
+    /* Metodo de Actulizar cargo */
     public void actualizarCargo(String nuevoCargo) {
         this.cargo = nuevoCargo;
         System.out.println("el cargo fue actualizado a: " + this.cargo);
