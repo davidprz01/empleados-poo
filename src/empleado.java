@@ -1,8 +1,8 @@
-public class Empleado {
+public class empleado {
     private String nombre;
     private int salario;
     private String cargo;
-    public Empleado(String nombre, int salario) {
+    public empleado(String nombre, int salario) {
         this.nombre = nombre;
         this.salario = salario;
         this.cargo = cargo;
