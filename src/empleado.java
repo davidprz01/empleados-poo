@@ -35,6 +35,12 @@ public int calcularSalario() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Salario total calculado: " + calcularSalario());
     }
+    //Metodo aumentar salario
+    public void aumentarSalario(int aumento) {
+        salario += aumento;
+        System.out.println("=== SALARIO ACTUALIZADO ===");
+        System.out.println("Nuevo salario: " + salario);
+    }
 }
 
 
